@@ -1,0 +1,140 @@
+body {
+background: url(siteBackground.jpg);  /*background image found on pexels.com / file path C:\Users\blake\Files\Documents\VS Code*/
+background-position: center center;   
+background-repeat: no-repeat;         
+background-attachment: fixed;         
+background-size: cover;               
+
+}
+h1{
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4vw;
+  padding-left: 2%;
+
+}
+hr{
+    border: 0;
+    height: 2px; /*width of hr*/
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+     /*"to right" Starting point of linear-gradient.     Stop 1                   Stop 2                  Stop 3*/
+}
+
+    /* Home Page Nav and Buttons */
+.navHome nav{
+  width: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.homePage button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3%;
+  width: 50%;
+  border-radius: 35px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  border: none;
+}
+    /* End Home Page Nav and Buttons */
+
+    /* Other Pages Nav and Buttons */
+
+
+.webPages button{
+  margin-top: 2%;
+  border:none;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  width: 115px;
+  
+  
+}
+    /* End Other Pages Nav and Buttons */
+
+    /* General Link and Button Attributs */
+a{
+  text-decoration: none;
+  padding: 0%;
+  margin: 0%;
+  width: 0%;
+}
+button:hover{
+  transition-duration: 0.5s;
+  color: rgb(57, 148, 187);
+  border: 1px solid rgb(4, 102, 248);
+  border-radius: 15px;
+  transition-duration: 0s;
+
+}
+
+@media screen and (max-width: 600px) {
+  h1{
+    text-align: center;
+}
+.navOther{
+  text-align: center;
+}
+} 
+    /*End General Link and Button Attributs  */
+
+    /* About Page */
+.aboutDiv{
+  background-color: transparent;
+  color: rgb(49, 175, 127);
+  width: 60%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5em;
+}
+    /* End About Page */
+
+    /* Projects Page */
+.projectWrapper{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+.divProject{
+  display: inline-flex;
+  background-color: bisque;
+  width:21vw;
+  height: 30vw;
+  margin-top: 2vw;
+  margin-left: 5px;
+  margin-right: 5px;
+  justify-content: center;
+}
+ @media screen and (max-width: 600px) {
+  .divProject{
+    width: 20em;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+ }  
+.Project
+{
+color:red;
+
+
+}
+    /* End Projects Page */
+
+
+
+
+
+
+
+
+
+
+
+
+
