@@ -1,0 +1,315 @@
+body {
+  background: url(../images/siteBackground3.jpg);
+  /*background image found on pexels.com */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5vw;
+  padding-left: 2%;
+
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  /*width of hr*/
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  /*"to right" Starting point of linear-gradient.     Stop 1                   Stop 2                  Stop 3*/
+}
+
+/* Home Page Nav and Buttons */
+.homepage {
+  background: url(../images/siteBackground3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navHome nav {
+  width: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.homePage button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  font-size: 1.5em;
+  font-weight: bold;
+  border: none;
+  padding: 1px;
+  width: 25%;
+}
+
+.homePage button:hover {
+  border-radius: 35px;
+  color: rgb(3, 96, 124);
+
+}
+
+/* End Home Page Nav and Buttons */
+
+/* Other Pages Nav and Buttons */
+.webPages button {
+  margin-top: 2%;
+  border: none;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  font-weight: bold;
+  width: 115px;
+}
+
+/* End Other Pages Nav and Buttons */
+
+
+
+
+
+/* General Link and Button Attributs */
+a {
+  text-decoration: none;
+  padding: 0.5px;
+  margin: 0.5px;
+  width: 1%;
+}
+
+button:hover {
+  color: rgb(2, 191, 248);
+  border: 0.5px solid rgb(2, 191, 248);
+  border-radius: 35px;
+  padding: 0.1px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    text-align: center;
+  }
+
+  .navOther {
+    text-align: center;
+  }
+}
+
+/*End General Link and Button Attributs  */
+
+
+
+
+/* About Page */
+.aboutpage {
+  background: url(../images/siteBackground2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.aboutButtons button {
+  margin-top: 2%;
+  border: none;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  font-size: 1.5em;
+  font-weight: bold;
+  width: 115px;
+}
+
+.aboutButtons button:hover {
+  color: rgb(0, 111, 145);
+  border: 0.5px solid rgb(0, 111, 145);
+  border-radius: 35px;
+  margin-bottom: -0.5px;
+}
+
+.intro {
+  text-align: center;
+}
+
+.aboutDiv {
+  color: rgb(0, 0, 0);
+  width: 60%;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.blakeImage {
+  width: 200px;
+  border-radius: 50px;
+}
+
+/* End About Page */
+
+
+
+/* Resume Page */
+.resumepage {
+  background: url(../images/siteBackground.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.resumehr {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
+.resumePageHeader {
+  color: rgb(255, 255, 255);
+}
+
+.resumeHeader {
+  color: rgb(255, 255, 255);
+  width: 75%;
+  font-size: 3.5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.resumeBody {
+  background-color: rgba(0, 0, 0, 0.548);
+  color: rgb(255, 255, 255);
+  width: 60%;
+  margin: 5%;
+  font-size: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+  .resumeBody,
+  .resumeHeader {
+    font-size: 1em;
+  }
+}
+
+/* End Resume Page*/
+
+
+
+
+
+/* Projects Page */
+
+.projectButtons button {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border: none;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  font-size: 1.5em;
+  font-weight: bold;
+  width: 115px;
+}
+
+.projectButtons button:hover {
+  color: rgb(2, 191, 248);
+  border: 0.5px solid rgb(2, 191, 248);
+  border-radius: 35px;
+}
+
+.wrapper {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.project {
+  width: 90%;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 1.5em;
+  background-color: rgb(145, 37, 155);
+  border-radius: 40px;
+}
+
+.project:hover {
+  opacity: 0.9;
+}
+
+.project:visited {
+  color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 700px) {
+  .wrapper {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding-top: 1.5px;
+  }
+}
+
+/* End Projects Page */
+
+
+
+/*Contact Page */
+
+.contactpage {
+  background: url(../images/siteBackground5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact {
+  color: rgb(255, 255, 255);
+  padding-top: 50.5px;
+  padding-left: 30px;
+  font-size: 1.5em;
+}
+
+.contactPageHeader {
+  color: rgb(255, 255, 255);
+}
+
+.links:visited,
+a {
+  color: rgb(255, 255, 255)
+}
+
+.contactLinks {
+  display: inline;
+  font-size: 1.0em;
+}
+
+.Links:hover,
+.links:visited:hover {
+  color: rgb(2, 191, 248);
+}
+
+.contacthr {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
+/* End Contact Page */
